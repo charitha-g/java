@@ -1,52 +1,32 @@
 package com.tgt.igniteplus;
 
+import java.util.Scanner;
 public class javaChallenge19
 {
-
-    /*This function divides a by greatest
-    divisible power of b*/
-    static int maxDivide(int a, int b)
+    public static void main(String[] args)
     {
-        while(a % b == 0)
-            a = a/b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n");
+        int n=sc.nextInt();
+        int ans=isUgly(n);
+        if(ans == 1)
+            System.out.println("This is an ugly number" );
+        else
+            System.out.println("This is not an ugly number");
+    }
+    static int maxDividingPower(int a, int b)
+    {
+        while (a%b == 0)
+            a=a/b;
         return a;
     }
 
-    /* Function to check if a number
-    is ugly or not */
-    static int isUgly(int no)
+    static int isUgly(int num)
     {
-        no = maxDivide(no, 2);
-        no = maxDivide(no, 3);
-        no = maxDivide(no, 5);
-        return (no == 1)? 1 : 0;
-    }
+        num=maxDividingPower(num,2);
+        num=maxDividingPower(num,3);
+        num=maxDividingPower(num,5);
 
-    /* Function to get the nth ugly
-    number*/
-    static int getNthUglyNo(int n)
-    {
-        int i = 1;
-
-        // ugly number count
-        int count = 1;
-
-        // check for all integers
-        // until count becomes n
-        while(n > count)
-        {
-            i++;
-            if(isUgly(i) == 1)
-            count++;
-        }
-        return i;
-    }
-
-    /* Driver program to test above
-    functions */
-    public static void main(String args[])
-    {
-        int no = getNthUglyNo(150);
-        System.out.println("150th ugly " + "no. is "+ no);
+        return (num==1)?1:0;
     }
 }
