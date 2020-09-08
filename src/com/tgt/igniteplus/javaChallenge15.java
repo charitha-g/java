@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// print all the permutations of String “GOD”
 public class javaChallenge15 {
     public static void permutation(String str, String ans) {
 
