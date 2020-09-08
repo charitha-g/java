@@ -1,5 +1,6 @@
 package com.tgt.igniteplus;
 
+// print all the leaf nodes of the binary tree
 public class javaChallenge17
 {
     static class Node
