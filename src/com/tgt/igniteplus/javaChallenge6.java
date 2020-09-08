@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// to check if input year is leap year or not
 public class javaChallenge6 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
