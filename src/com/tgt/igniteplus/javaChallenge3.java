@@ -1,5 +1,6 @@
 package com.tgt.igniteplus;
 
+// A pen costs 50$ and it is been sold at a discount of 12%, Write a program to display discount amount and selling price of the pen
 public class javaChallenge3
 {
     public static void main(String[] args) {
