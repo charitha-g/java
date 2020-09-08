@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// convert the string totally to uppercase
 public class javaChallenge11
 {
     public static void main(String[] args)
