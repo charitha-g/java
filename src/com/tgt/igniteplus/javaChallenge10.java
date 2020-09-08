@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.io.*;
+// to copy data from one file to another file
 public class javaChallenge10
 {
     public static void main(String[] args) throws FileNotFoundException,IOException
