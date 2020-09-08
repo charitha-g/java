@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// to find the ASCII value of the character
 public class javaChallenge4
 {
     public static void main(String[] args)
