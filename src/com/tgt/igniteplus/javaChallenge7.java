@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+//to calculate the average value of the array elements
 public class javaChallenge7
 {
     public static void main(String[] args)
