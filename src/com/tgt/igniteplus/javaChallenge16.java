@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// print the duplicate characters of the string
 public class javaChallenge16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
