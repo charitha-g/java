@@ -2,6 +2,7 @@ package com.tgt.igniteplus;
 
 import java.io.FileOutputStream;
 import java.io.FileOutputStream;
+// to write a data to the file using FileOutputStream
 public class javaChallenge9
 {
     public static void main(String[] args)
