@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// calculate the largest number from the given three numbers using ternary operator
 public class javaChallenge18 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
