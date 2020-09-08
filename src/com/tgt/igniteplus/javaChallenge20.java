@@ -1,5 +1,7 @@
 package com.tgt.igniteplus;
 
+// to replace ‘a’ with ‘$’ in
+//“I am always ready to learn although I do not always like being taught.”
 public class javaChallenge20 {
     public static void main(String[] args) {
         String s= "I am always ready to learn although I do not always like being taught.";
