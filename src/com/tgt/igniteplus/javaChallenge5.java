@@ -1,6 +1,7 @@
 package com.tgt.igniteplus;
 
 import java.util.Scanner;
+// to check if given number is a perfect square
 public class javaChallenge5
 {
     public static void main(String[] args)
