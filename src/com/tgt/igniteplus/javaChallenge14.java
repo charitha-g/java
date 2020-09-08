@@ -2,6 +2,7 @@ package com.tgt.igniteplus;
 
 import java.util.*;
 import java.util.regex.Pattern;
+// read two string user input and check if first contains the second
 public class javaChallenge14 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
